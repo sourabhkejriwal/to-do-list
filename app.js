@@ -53,7 +53,7 @@ function addTask(e) {
 }
 
 function appendTasksToList(val) {
-  let taskListElement = `<li class = "collection-item"> ${val} <a class = "delete-item secondary-content"> <i class ="fa fa-remove"></i></a></li>`;
+  let taskListElement = `<li class="collection-item">${val}<a class = "delete-item secondary-content"><i class ="fa fa-remove"></i></a></li>`;
 
   taskList.insertAdjacentHTML('beforeend', taskListElement);
 }
